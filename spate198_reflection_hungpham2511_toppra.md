@@ -1,3 +1,0 @@
-# Reflection: hungpham2511_toppra
-
-TOPPRA has a declining pattern and four long gaps. Its largest gap lasted from February through December 2024, and I found it hard to interpret with certainty. [PR #247](https://github.com/hungpham2511/toppra/pull/247) was opened before that gap and merged after it, while [PR #259](https://github.com/hungpham2511/toppra/pull/259) handled NumPy 2.0 and Cython compatibility. That evidence suggests a maintenance and compatibility backlog, although no one states the exact cause. New contributors helped restart the work, and the project is active under the assignment cutoff.
