@@ -1,0 +1,3 @@
+# Reflection: biod_sambamba
+
+Sambamba's chart declines and contains five gaps of at least three months. Before the longest gap, [PR #508](https://github.com/biod/sambamba/pull/508) removed Travis because the project had moved to GitHub Actions. The first later contribution, [PR #518](https://github.com/biod/sambamba/pull/518), added LDC 1.38.0 compatibility, and more build fixes followed. The gap was hard to interpret; it looks like a maintenance lull, but I could not find a statement giving the exact reason. A new contributor, Cornelius Roemer, started the recovery, and Pjotr Prins continued it; the project is inactive under the assignment cutoff.

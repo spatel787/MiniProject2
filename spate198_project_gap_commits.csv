@@ -1,0 +1,467 @@
+pre/post;project_wocid;commit_sha1;author;time;commit message
+pre;nansencenter_dapper;8f0ca0daea3f8ea56d457ae7c8ed3c12cc4e52e0;Patrick <patrick.n.raanes@gmail.com>;1582716109;"Closes #11
+"
+pre;nansencenter_dapper;4d2be1149b3f77bd56569f4a484f990bceb4edbe;Patrick <patrick.n.raanes@gmail.com>;1582716820;"Mv test_TLMs.py
+"
+pre;nansencenter_dapper;b3ad2d7f15da6b37e2a59811cbfe96319b949a34;Patrick <patrick.n.raanes@gmail.com>;1582731447;"Improved comments around seed usage. Updated tests.
+"
+pre;nansencenter_dapper;3eaa2c65138920077dd454921a103035d15c0728;Patrick <patrick.n.raanes@gmail.com>;1582736908;"Improved and used launch(savename=False)
+"
+pre;nansencenter_dapper;f27c1ba2e18c155d378f8939dd3bae6c55f84ee6;Patrick <patrick.n.raanes@gmail.com>;1582736998;"Misc minor
+"
+pre;nansencenter_dapper;7f6a74a0caf610a9dacb7561b5ddf10d54f8583f;Patrick <patrick.n.raanes@gmail.com>;1582737037;"Minor improvements: axis_scale_by_array
+"
+pre;nansencenter_dapper;f4ca6a14772b96dfdc1a70101a40ed3596aee9fd;Patrick <patrick.n.raanes@gmail.com>;1582737053;"Sync current dir to cloud
+"
+pre;nansencenter_dapper;72218a091b371d7a1f5a88dce2f4579c3e3c3bf4;patricknraanes <patrick.n.raanes@gmail.com>;1583419947;"Misc minor
+"
+pre;nansencenter_dapper;73af36a1f5f487405b0ee3b99b168ca170be7070;patricknraanes <patrick.n.raanes@gmail.com>;1583420014;"Changed phase3d into phase_particles to support 2d
+"
+pre;nansencenter_dapper;cf24dff77e2a173cde46408683d55ec8052e5382;patricknraanes <patrick.n.raanes@gmail.com>;1583420544;"Added Ikeda map
+"
+post;nansencenter_dapper;7f2fdf2c5f898d9dea0108c20dbdc076bf00131c;patricknraanes <patrick.n.raanes@gmail.com>;1596466910;"Minor updates to Ikeda
+"
+post;nansencenter_dapper;653a9030997ea6e8e92567323049e25c30eebe40;patricknraanes <patrick.n.raanes@gmail.com>;1596466933;"Minor comments
+"
+post;nansencenter_dapper;af07d2ade8bbb79d3180929d7e1354c4a5bf082a;patricknraanes <patrick.n.raanes@gmail.com>;1596466989;"Add pandas to setup/requires
+"
+post;nansencenter_dapper;0fb7fb4cea9a120e3dd76efe284f10e52cdf79cb;patricknraanes <patrick.n.raanes@gmail.com>;1596467036;"Minor whitespace
+"
+post;nansencenter_dapper;bc442ec4ce7bf8bec93bdd6b3e20f325d15e368a;patricknraanes <patrick.n.raanes@gmail.com>;1596467094;"Add vOLD/
+"
+post;nansencenter_dapper;d4810eb50afba7e4f0c97ab2d91f52bec5ff79ab;patricknraanes <patrick.n.raanes@gmail.com>;1596469272;"Fix 'is with a literal' warnings
+"
+post;nansencenter_dapper;3bfc7eafdd736ee30da5c6f77d262859adab469a;patricknraanes <patrick.n.raanes@gmail.com>;1596538103;"Add Dev to extras_require
+"
+post;nansencenter_dapper;e2e49e7f46d8e0809985cc808af5a35ea2697f04;patricknraanes <patrick.n.raanes@gmail.com>;1596538806;"Misc minor
+"
+post;nansencenter_dapper;2d48e61f586383c3112d87a0762e5e8df03d488a;patricknraanes <patrick.n.raanes@gmail.com>;1596540233;"XS --> xSect
+"
+post;nansencenter_dapper;981269a8c00dcb039f4715f4be5cc3eb73580585;patricknraanes <patrick.n.raanes@gmail.com>;1596540466;"Misc comments
+"
+pre;quantumblacklabs_kedro-viz;bedd9170ef0ece671af7bc7475afe87ce519c7a2;Richard Westenra <rjwestenra@gmail.com>;1527259484;"Fix parameters toggle for random data env
+"
+pre;quantumblacklabs_kedro-viz;c99b7155a1b11a8075e17aa14227928836ed8afe;Richard Westenra <rjwestenra@gmail.com>;1527611852;"Don't highlight nodes linked via disabled nodes
+"
+pre;quantumblacklabs_kedro-viz;0eaa686e98ac22b1d76ac7cda92393fc33604d4e;Richard Westenra <rjwestenra@gmail.com>;1527612025;"Allow reenabling of parameter fields
+"
+pre;quantumblacklabs_kedro-viz;7ef728a35792919ed5713df491be873da03b25bb;Richard Westenra <rjwestenra@gmail.com>;1527614109;"Add Prettier custom config
+"
+pre;quantumblacklabs_kedro-viz;f55d66f1dcae4a1ac58a94992a88e38105893a35;Richard Westenra <rjwestenra@gmail.com>;1527614135;"Gitignore VSCode config
+
+This is so I can set Prettier to autosave on this project alone
+"
+pre;quantumblacklabs_kedro-viz;562b4a1ff57587fcbdc8135a9cf7feb5973a3105;Richard Westenra <rjwestenra@gmail.com>;1527675110;"Removed unused variables
+"
+pre;quantumblacklabs_kedro-viz;45828d63b22ebfca8f06e813778f851a0842cdc1;Ivan Danov <idanov@users.noreply.github.com>;1527690963;"Package generated html into a python package (CAI-286, CAI-287) (#1)
+
+* Add python packaging code
+
+* Add arg opts
+
+* Publish python package
+
+* Remove unused variable
+
+* Add upper bound for Flask dependency
+
+* Bump up pip version dependency
+
+* Print an error message if --port is not an integer
+
+* Add __pycache__ to gitignore
+
+* Serve node.json from a custom logdir
+"
+pre;quantumblacklabs_kedro-viz;968be26e367e60b08ec9722325fd46c079c85c1e;Ivan Danov <idanov@users.noreply.github.com>;1527698607;"Use os.walk instead of glob.glob in setup.py (#2)
+
+"
+pre;quantumblacklabs_kedro-viz;d3cec681eddb0c66e427dbca50ddf30bfb21a7c6;Ivan Danov <idanov@users.noreply.github.com>;1527863924;"Read real log files (#3)
+
+* Copy html files to package/carbonviz/html
+
+* Read pipeline.log file format
+
+* Add a new line at the end of .gitignore
+
+* Take out pipeline.log into a top-level constant
+"
+pre;quantumblacklabs_kedro-viz;f56eef84280a59a5c006133dff01022c6873173a;Ivan Danov <idanov@users.noreply.github.com>;1527864888;"Package html files in carbonviz
+"
+post;quantumblacklabs_kedro-viz;433f93ed8b1d9ff593e00fd9342e230bd0391a67;Ivan Danov <idanov@users.noreply.github.com>;1538063009;"Rename carbonviz to kernelviz (#5)
+
+"
+post;quantumblacklabs_kedro-viz;4714e60b89b7ff8a72ed8ad5a8adb1e1b513e64d;Richard Westenra <rjwestenra@gmail.com>;1539273305;"Create ChartWrapper component and move sidebar transition
+
+This is to allow the chart to be imported and contained in another app
+"
+post;quantumblacklabs_kedro-viz;12d18133379a9ca4b1625460a7d3158631e55f8f;Richard Westenra <rjwestenra@gmail.com>;1539274073;"Add Sync button prototype (WIP)
+"
+post;quantumblacklabs_kedro-viz;ec7f965b105eccbac6db36c74da7685ac15b05e2;Richard Westenra <rjwestenra@gmail.com>;1539602645;"Move Core CSS imports from index.js to app component
+
+This is so you can include/import just the app component
+"
+post;quantumblacklabs_kedro-viz;a33b2f3a6f40c373eb858073875c73ebdb26322b;Richard Westenra <rjwestenra@gmail.com>;1539604562;"Improve the studio sync action to use actual data and message
+"
+post;quantumblacklabs_kedro-viz;2f8d9a77c3bba703974cc10ee766230bd8da1c83;Richard Westenra <rjwestenra@gmail.com>;1539605350;"Store token in environment variables & localStorage, but prompt if unavailable
+"
+post;quantumblacklabs_kedro-viz;2638d435c8c5f0a2ded89afb982c2a2878f68a6e;Richard Westenra <rjwestenra@gmail.com>;1539609190;"Eject from create-react-app
+"
+post;quantumblacklabs_kedro-viz;691e3f867bb27e4077385852ef91b476e2b83a0a;Richard Westenra <rjwestenra@gmail.com>;1539618352;"Make the app exportable as an NPM package
+
+See https://medium.com/@lokhmakov/best-way-to-create-npm-packages-with-create-react-app-b24dd449c354
+"
+post;quantumblacklabs_kedro-viz;2b80f4f3d28205431dc68f8ff23751eede292730;Richard Westenra <rjwestenra@gmail.com>;1539621672;"Make data path location optional
+"
+post;quantumblacklabs_kedro-viz;f6bebd92430c65c325dab17f844f12c66e756f27;Richard Westenra <rjwestenra@gmail.com>;1539621890;"Improve error handling in the sync functionality
+"
+pre;biod_sambamba;3a9205f126f317b7e210773f1d72771a17c1b06b;Pjotr Prins <pjotr.public01@thebird.nl>;1692088925;"Fix meson/ninja build
+"
+pre;biod_sambamba;ea71c72a2528b814fe5f619811760c3fbfe30cd2;Pjotr Prins <pjotr.public01@thebird.nl>;1692089511;"Github actions fixing
+"
+pre;biod_sambamba;0b8f096c56389b161a3f2ae1360418270bb8b0f5;Pjotr Prins <pjotr.public01@thebird.nl>;1692168532;"Working CI
+"
+pre;biod_sambamba;ddcfd411d724d5f9997f4548c359c17ae73ebdec;Pjotr Prins <pjotr.public01@thebird.nl>;1692168736;"Working CI
+"
+pre;biod_sambamba;8e003a927fa7a71aca8bb6791ee4db6fc8f14421;Pjotr Prins <pjotr.public01@thebird.nl>;1692169156;"Working CI
+"
+pre;biod_sambamba;f2d23bd8bfff1bf10e8b4bbffe83562acdb0b662;Pjotr Prins <pjotr.public01@thebird.nl>;1692170505;"Remove
+"
+pre;biod_sambamba;61a173670117ee3e4d9093c501887d83373bf573;Pjotr Prins <pjotr.public01@thebird.nl>;1692170563;"Adding msg-pack
+"
+pre;biod_sambamba;5822f9aff4aec1cd32f01f2d2cbe201bf704d37a;Pjotr Prins <pjotr.public01@thebird.nl>;1692171201;"Fixed CI
+
+New release
+"
+pre;biod_sambamba;67b487c5b71b112aaf560a58ef84419b982840b9;Rui Chen <rui@chenrui.dev>;1692539614;"chore: remove travis config
+
+Signed-off-by: Rui Chen <rui@chenrui.dev>
+"
+pre;biod_sambamba;4d7c5b7519defa8d62981d5cfd8cab755d132bca;Pjotr Prins <pjotr.public01@thebird.nl>;1692613455;"Merge pull request #508 from chenrui333/remove-travis-config
+
+chore: remove travis config"
+post;biod_sambamba;b9a27aa4d8805b13b55419b6101201fd35b9fd8d;Cornelius Roemer <cornelius.roemer@gmail.com>;1720023940;Compile binary with ldc 1.38.0
+post;biod_sambamba;69d729123d4799792392539574e7b9344780fd2e;Pjotr Prins <pjotr.public01@thebird.nl>;1733231395;"Merge pull request #518 from corneliusroemer/patch-1
+
+Compile binary with ldc 1.38.0"
+post;biod_sambamba;26ac583a7f03765cc2deaa4b8e0b5dbe1a851a74;Pjotr Prins <pjotr.public01@thebird.nl>;1734372139;"Makefile: amend comment
+"
+post;biod_sambamba;68b0f064545f466fa9e472e3ff5a2233435af0fa;Pjotr Prins <pjotr.public01@thebird.nl>;1734373466;"undead: merge upstream fixes
+"
+post;biod_sambamba;5fdcf6f3015cb17b805514397223f7513bc92613;Pjotr Prins <pjotr.public01@thebird.nl>;1734859825;"stream.d: add missing break
+"
+post;biod_sambamba;b1e0b7b5c2144233512a0c07cde01d1feadaea86;Pjotr Prins <pjotr.public01@thebird.nl>;1734859846;"bgzf.d: get rid of compiler warning.
+"
+post;biod_sambamba;dba65af68708859203338caa04ac62265fcebeab;Pjotr Prins <pjotr.public01@thebird.nl>;1734862067;"Makefile and guix: build default sambamba
+"
+pre;hungpham2511_toppra;70c49dbb1256df85367d6d282c7f98ea3fe8cc22;Chenna Kautilya <hb@xn--0mc.com>;1699238101;"fix: add import in __init__.py
+"
+pre;hungpham2511_toppra;f010554073914d753353ee7673473b78757238c8;Chenna Kautilya <hb@xn--0mc.com>;1699239739;"int: add example
+"
+pre;hungpham2511_toppra;8c469040739488c4bc125cffb17fab5c61f0e0f9;Chenna Kautilya <hb@xn--0mc.com>;1699239906;"remove logs
+"
+pre;hungpham2511_toppra;b55724f16a54e0c989aef620a33a519a1110c277;Chenna Kautilya <hb@xn--0mc.com>;1699241608;"update docs
+"
+pre;hungpham2511_toppra;c28fd7cbc5039e9b1c1f1482f66e94a70465dda5;Chenna Kautilya <hb@xn--0mc.com>;1699241947;"update more docs
+"
+pre;hungpham2511_toppra;46fda933064a7b1ca8ab1a6972f96f6d8e1ce6a8;Chenna Kautilya <chenna@outlook.com>;1699241953;"Merge c28fd7cbc5039e9b1c1f1482f66e94a70465dda5 into 730aa8ad6854c7da01304ad1ed8c0819400862f4
+"
+pre;hungpham2511_toppra;80b3f23f35f36cc2f3be1aaaddd8569bb4330e59;Maxim Skripnik <maxim.skripnik@zeiss.com>;1705309102;"fix #245: Cannot convert from initializer list to toppra::BoundaryCond
+"
+pre;hungpham2511_toppra;b47400c38d54b4655fef13c70a97670f2e243dbe;Maxim Skripnik <maxim.skripnik@zeiss.com>;1705324458;"fix #244: Seidel LP 1D: incoherent bounds
+"
+pre;hungpham2511_toppra;b7b76d8418baddc0f6a4c2b43c187128d63cf6bf;Maxim Skripnik <maxim.skripnik@zeiss.com>;1705324894;"Update HISTORY.md
+"
+pre;hungpham2511_toppra;4d885d276d6ef5091081d3aaca37c39eaa25524d;Maxim Skripnik <156424199+mskripnik@users.noreply.github.com>;1705325231;"Merge b7b76d8418baddc0f6a4c2b43c187128d63cf6bf into 730aa8ad6854c7da01304ad1ed8c0819400862f4
+"
+post;hungpham2511_toppra;be9b153fbd0c03d640402ecd52228e46813aa0a4;wxflamy <wxflamy@yeah.net>;1737009308;"fix a,b,c computed in computeParams_impl
+"
+post;hungpham2511_toppra;069c26d9cfd838320370b8d8d0fb5204b0e9b9d7;wxflamy <wxflamy@yeah.net>;1737013757;"change my errors
+"
+post;hungpham2511_toppra;0d5c356387ea7cac45a4f152609118afd1d275f0;Zachary Kingston <zkingston@purdue.edu>;1739828259;"Updated interface for numpy > 2.0
+"
+post;hungpham2511_toppra;15a96611594f80a95ff618d81c764bbb0330b47c;Maxim Skripnik <156424199+mskripnik@users.noreply.github.com>;1742162656;"fix(cpp): incoherent bounds seidel lp 1d (#247)
+
+* fix #245: Cannot convert from initializer list to toppra::BoundaryCond
+
+* fix #244: Seidel LP 1D: incoherent bounds
+
+* Update HISTORY.md"
+post;hungpham2511_toppra;60a9b18560c1d062adc1d682363ed9f29b37f372;Hung Pham <hungpham2511@gmail.com>;1742162922;"fix python version
+"
+post;hungpham2511_toppra;c55b46a317b5117897b293b0c73ca0ec05317324;Hung Pham <hungpham2511@gmail.com>;1742162999;"use newer upload artifacts
+"
+post;hungpham2511_toppra;463db6ac95a4517fc1802f0434e0313119adb8eb;Hung Pham <hungpham2511@gmail.com>;1742163091;"update python version
+"
+post;hungpham2511_toppra;a3a556bfd5984ac786a044a5c26d743ab0ca9755;Hung Pham <hungpham2511@gmail.com>;1742163204;"update ubuntu version
+"
+post;hungpham2511_toppra;fab1f402ef8677beac43d2226eb1cc6ce0d54735;Zachary Kingston <kingston.zak@gmail.com>;1742163596;"build: Updated interface for numpy > 2.0 (#259)
+
+"
+post;hungpham2511_toppra;bc9116d5ca81f28a43cf16c1bd62777200c1e92c;dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>;1742614466;"Merge 831b57c982c9d59f3ea17dea2747a3374d336e1e into fab1f402ef8677beac43d2226eb1cc6ce0d54735
+"
+pre;bioimagesuiteweb_bisweb;e831350164304e8fb35314f5277e5b6f725d94a5;Xenios Papademetris <xenophon.papademetris@yale.edu>;1691515212;"fixed missing error message
+"
+pre;bioimagesuiteweb_bisweb;70dd1c76f992293cbd5fb67015b0c95d1ecd996f;dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>;1698270362;"Bump crypto-js from 3.1.9-1 to 4.2.0
+
+Bumps [crypto-js](https://github.com/brix/crypto-js) from 3.1.9-1 to 4.2.0.
+- [Commits](https://github.com/brix/crypto-js/compare/3.1.9-1...4.2.0)
+
+---
+updated-dependencies:
+- dependency-name: crypto-js
+  dependency-type: direct:production
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>"
+pre;bioimagesuiteweb_bisweb;886606d834ae31ee5fd7b2c916a92a247b3d0c02;dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>;1698270363;"Merge 70dd1c76f992293cbd5fb67015b0c95d1ecd996f into e831350164304e8fb35314f5277e5b6f725d94a5
+"
+pre;bioimagesuiteweb_bisweb;46b6dcc037013a30e14fd03fa39c070f5af4d21c;Xenios Papademetris <xenophon.papademetris@yale.edu>;1709660471;"adding index map computation
+"
+pre;bioimagesuiteweb_bisweb;16b47f7207550b553b70f906ed794d15adae9240;Xenios Papademetris <xenophon.papademetris@yale.edu>;1709660489;"Merge branch 'devel' of github.com:bioimagesuiteweb/bisweb into devel
+"
+pre;bioimagesuiteweb_bisweb;783b644c7e8b4d894112dad4a9480657fcd17e65;Xenios Papademetris <xenophon.papademetris@yale.edu>;1709660993;"new module
+"
+pre;bioimagesuiteweb_bisweb;d3f1c18b6e9f9416c083e6d46fd14c1efd17eb7b;Xenios Papademetris <xenophon.papademetris@yale.edu>;1710859711;"matlab fix
+"
+pre;bioimagesuiteweb_bisweb;bdf67a6f93d509081a8ea8bfd78e153e6f368408;Xenios Papademetris <xenophon.papademetris@yale.edu>;1710946577;"updates to run spectral clustering in one shot
+"
+pre;bioimagesuiteweb_bisweb;0325420389c7cf8e7e844b8633ca0ed0a1b17ff9;Xenios Papademetris <xenophon.papademetris@yale.edu>;1711133643;"fixes to pipeline
+"
+pre;bioimagesuiteweb_bisweb;a1082cef552762816e3cd585ce02107a5bf9a822;dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>;1712468013;"Merge 70dd1c76f992293cbd5fb67015b0c95d1ecd996f into 0325420389c7cf8e7e844b8633ca0ed0a1b17ff9
+"
+post;bioimagesuiteweb_bisweb;5060bf800d0c212dc564e55388cfbeeb7df56d96;Xenios Papademetris <xpapademetris@gmail.com>;1738291978;"adding one more script
+"
+post;bioimagesuiteweb_bisweb;a894689fd31a44ce43b1f01fcdb22b49966b5ef0;Xenios Papademetris <xpapademetris@gmail.com>;1738291983;"Merge branch 'devel' of github.com:bioimagesuiteweb/bisweb into devel
+"
+post;bioimagesuiteweb_bisweb;ad117bf075c6aca47bd132f0858101e8e5702459;Xenios Papademetris <xpapademetris@gmail.com>;1738292032;"typo fix
+"
+post;bioimagesuiteweb_bisweb;1d6625aa68824838c38e00db4a78ba4e92e8052b;dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>;1742170914;"Merge ceb8a30bdd0f48d9c5ece569f74c06c73de5c9fa into ad117bf075c6aca47bd132f0858101e8e5702459
+"
+post;bioimagesuiteweb_bisweb;e1227ef7edde7878b62ad374482e3f2cf214cd3c;dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>;1743007158;"Merge 70dd1c76f992293cbd5fb67015b0c95d1ecd996f into ad117bf075c6aca47bd132f0858101e8e5702459
+"
+pre;carloscinelli_sensemakr;4336979867287902462422f3242f8ab777080e13;Carlos Cinelli <carloslkcinelli@gmail.com>;1659393511;"Merge branch 'master' of https://github.com/carloscinelli/sensemakr
+"
+pre;carloscinelli_sensemakr;6cf42ce47d5a38bd63430e9015f187f32f338dbf;grlju <54751846+grlju@users.noreply.github.com>;1659396865;"Merge branch 'carloscinelli:master' into fixest
+"
+pre;carloscinelli_sensemakr;833629b411a46f650f91c40fa6ab5cb58ba9ab14;Carlos Cinelli <carloslkcinelli@gmail.com>;1659401093;"- using the correct degrees of freedom
+- message if non-iid vcov
+- fixing test
+"
+pre;carloscinelli_sensemakr;dde77ec2a8fb5f84264ca8452006af77629192c7;Carlos Cinelli <carloslkcinelli@gmail.com>;1659401112;"Merge branch 'fixest' of https://github.com/grlju/sensemakr into pr/53
+"
+pre;carloscinelli_sensemakr;315fe7017f3945330256ba05c1ad2ce946f8c7ef;grlju <grigorij.ljubownikow@gmail.com>;1659405752;"consitency with other code in case of uncomment
+"
+pre;carloscinelli_sensemakr;0b93fbc82e3c7d7587fdc33700ccbca1aa542c8b;grlju <grigorij.ljubownikow@gmail.com>;1659405780;"remove unecessary comment
+"
+pre;carloscinelli_sensemakr;bd6d48363d3f6ef8672ce2909d6a7d2830ca11df;Carlos Cinelli <carloslkcinelli@gmail.com>;1659407113;"Merge pull request #53 from grlju/fixest
+
+Implement support for fixest::feols estimation results"
+pre;carloscinelli_sensemakr;ad9b7b16fd358ad0096123d21e4b5ebbdad25f53;Carlos Cinelli <carloslkcinelli@gmail.com>;1659410375;"- Improved vcov checking for fixest
+"
+pre;carloscinelli_sensemakr;473c7be5137379a9e3186e96fadd25034befd7e1;Carlos Cinelli <carloscinelli@hotmail.com>;1662681315;" - include model in generics
+"
+pre;carloscinelli_sensemakr;9e8e16ab39fbf90dcbb972cf5f4c65a7794ff788;Carlos Cinelli <carloslkcinelli@gmail.com>;1667348355;"- update website
+"
+post;carloscinelli_sensemakr;5ec69d978ef33b3420178eb27031f1f5deb1cd46;Carlos Cinelli <carloslkcinelli@gmail.com>;1700614265;"t-dagger
+"
+post;carloscinelli_sensemakr;279229dbcf02874d19afed70a2c669d428f9a7d7;Carlos Cinelli <carloslkcinelli@gmail.com>;1700616995;"t-dagger docs
+"
+post;carloscinelli_sensemakr;bed3b3f28af23d329f37cd9d9a52c4a66045348a;Carlos Cinelli <carloslkcinelli@gmail.com>;1700628670;"XRV
+"
+post;carloscinelli_sensemakr;9c9e74112aef5a297774769c9899ae8a836afd8e;Carlos Cinelli <carloslkcinelli@gmail.com>;1700629242;"xrv
+"
+post;carloscinelli_sensemakr;4e1dfb0ba5c015322a0f11c8ec8ae7376142dc0e;Carlos Cinelli <carloslkcinelli@gmail.com>;1700640335;"reverted to generic
+"
+post;carloscinelli_sensemakr;9dd81d32c98b4730f7cc369d471d61e64194e2ef;Carlos Cinelli <carloslkcinelli@gmail.com>;1700640513;"update readme
+"
+post;carloscinelli_sensemakr;c1bf5877ea4ad8f1eb9d902af92f0ba8c3d03053;Carlos Cinelli <carloslkcinelli@gmail.com>;1700686734;"using sef and bf functions
+"
+post;carloscinelli_sensemakr;7ed7311e3ff6881f113a750f3f42dfac418ac4f7;Carlos Cinelli <carloslkcinelli@gmail.com>;1700773412;"lwr, upr
+"
+post;carloscinelli_sensemakr;92acc372c0d8141b54459a911792d451851d166f;Carlos Cinelli <carloslkcinelli@gmail.com>;1701050146;"-print
+-plot lims
+"
+post;carloscinelli_sensemakr;6e6624642b3791019cbb6400e18d7abdfd064a3f;Carlos Cinelli <carloslkcinelli@gmail.com>;1701078780;"equivalent stable expression for the RV (for very large f statistics)
+"
+pre;compphysvienna_n2p2;11e13947584c7438c91b94b8c13cf51c06f313aa;Yantao Xia <xyttyxy@g.ucla.edu>;1682117673;"turning off neighbor count warning by default
+"
+pre;compphysvienna_n2p2;6a48aaf0e9614f449b242bcda4a9899ef0fc9d4e;Yantao Xia <xyttyxyx@login01.expanse.sdsc.edu>;1682118299;"restored version.h to cleaned state
+"
+pre;compphysvienna_n2p2;2ab0e693cc6ea6d1734b190a9086f9a0ac0f5d9f;Yantao Xia <xyttyxy@ucla.edu>;1682118305;"Merge 6a48aaf0e9614f449b242bcda4a9899ef0fc9d4e into 539576bbe3d2152ad8fcb8ec4fcd7934fd1a2472
+"
+pre;compphysvienna_n2p2;5924013632f6dac030783b6d07b29262335d091c;Philipp Misof <philipp.misof@gmail.com>;1682206097;"Added examples AlAuMgO, carbon chain; updated docs
+"
+pre;compphysvienna_n2p2;7e30bb8075124e0978e4470ee33fab54036590b0;Philipp Misof <philipp.misof@gmail.com>;1682695451;"Merge branch 'master' into 4G-HDNNP-training
+
+Fixed merge conflicts and 'make all' compiles successfully. But there
+are almost certainly runtime errors and not all new features of 'master'
+are supported yet for 4G, e.g. normalization in 'Training.cpp'.
+"
+pre;compphysvienna_n2p2;6fbd9d0fd751b54c93546cb35a2529aa10d9a9fa;Andreas Singraber <andreas.singraber@vasp.at>;1682721500;"Fixed missing Eigen include paths in app makefile
+
+Also fixed minor issues reported by gcc compiler.
+"
+pre;compphysvienna_n2p2;15a2fd765a99bf7af1206ea83227dde2adab34e2;Philipp Misof <philipp.misof@gmail.com>;1683569227;"Fixed 'eigen' include for lammps-nnp
+
+Also adjusted test results of H2O_RPBE-D3 for nnp-train
+"
+pre;compphysvienna_n2p2;cf79881c0629afd86caee94056740294e5abf4bd;Philipp Misof <philipp.misof@gmail.com>;1683757924;"Charge neutrality check under PBC; cleanup
+"
+pre;compphysvienna_n2p2;6daeb0bbd44d540855a0766114b0008ba4a7a938;Philipp Misof <philipp.misof@gmail.com>;1683810552;"Fixed signatures in pynnp
+"
+pre;compphysvienna_n2p2;9f320e19c7ac406aea76d22996494e8c0bfaec30;Philipp Misof <philipp.misof@gmail.com>;1683822302;"Constant 4*pi*epsilon can now be set by user
+"
+post;compphysvienna_n2p2;eb7c64ac5223e1c2ab0158bfefae1dbae7300fbf;ekocer <ekocer@tc2-pc005.theochem2.ruhr-uni-bochum.de>;1726832289;"4G-HDNNP-prediction production version
+"
+post;compphysvienna_n2p2;93cb2f101151efd101c685fc5eb54f198679e51f;ekocer <ekocer@tc2-pc005.theochem2.ruhr-uni-bochum.de>;1727883746;"memory bug fix in kspacennp
+"
+post;compphysvienna_n2p2;f31b38f6849862aac502a9483a1cf67a2481ce16;adodin <dodin.amro@gmail.com>;1731979368;"CMake Build System for libnnp
+"
+post;compphysvienna_n2p2;60d10324e0bec55b67425c3b4c25ac425070b67a;adodin <adodin@lbl.gov>;1732051818;"libnnptrain CMake build system
+"
+post;compphysvienna_n2p2;8a5aeee87282243c773a6621d57179fa250870f0;adodin <adodin@lbl.gov>;1732053035;"Corrected MPI include bug CMake
+"
+post;compphysvienna_n2p2;365d082fed7d3f4e296ef9731e2e8f48bcf8ba1a;Andreas Singraber <andreas.singraber@gmx.at>;1732057376;"Updated to LAMMPS version stable_29Aug2024
+
+Also added development-build warning to makefile.
+"
+post;compphysvienna_n2p2;7fa5f64c2fdc3ec12baa0a0ca97f264162b4bd31;Andreas Singraber <andreas.singraber@gmx.at>;1732230650;"Fixed pynnp test, Cython 3 now supports __rmul__
+
+Also unfixed version for coverage package in CI
+"
+post;compphysvienna_n2p2;b0feb573d59d19e94c73a4314aca02315fcb95f4;Andreas Singraber <andreas.singraber@gmx.at>;1732315870;"Updated build docs, changelog
+"
+post;compphysvienna_n2p2;e6a46dfb90b9d01d943fe0b1259906b265f9b3ec;Andreas Singraber <andreas.singraber@gmx.at>;1732317381;"Merge pull request #188 from singraber/development_interface_lammps
+
+Create up-to-date developer interface for LAMMPS"
+post;compphysvienna_n2p2;2c52e22ab40e6e4413012d30ef899d7b669379d6;singraber <andreas.singraber@gmx.at>;1732318670;"Deploying to gh-pages from @ CompPhysVienna/n2p2@e6a46dfb90b9d01d943fe0b1259906b265f9b3ec 🚀
+"
+pre;shraddhabarke_probe;68a285d8fbb4febacbd06607e675136007bf4f5e;Shraddha Barke <shraddha.6596@gmail.com>;1599799861;"Merge branch 'master' of https://github.com/shraddhabarke/partialcorrectness
+"
+pre;shraddhabarke_probe;3898c6eba705d1a8d7daa14b748d646e418434e0;Shraddha Barke <shraddha.6596@gmail.com>;1599802342;"update
+"
+pre;shraddhabarke_probe;9e9c7edc4b38c215b57bb2dd7feed568c96626db;Shraddha Barke <shraddha.6596@gmail.com>;1599810528;"minor
+"
+pre;shraddhabarke_probe;51fe1fa847da4cecaea93d766b428d043f4d2b0e;Shraddha Barke <shraddha.6596@gmail.com>;1600109644;"probe
+"
+pre;shraddhabarke_probe;a1b6c836ccdb13ae767e1aad6595accb22c74055;Shraddha Barke <shraddha.6596@gmail.com>;1601802427;"modified
+"
+pre;shraddhabarke_probe;6861aab97ec6e23e9d3071d099b244195a435c1f;Shraddha Barke <shraddha.6596@gmail.com>;1601802575;"merge conflict
+"
+pre;shraddhabarke_probe;ea8853d0e1ac8fa98adecbe25d28dc9e9d6cba67;Shraddha Barke <shraddha.6596@gmail.com>;1601876755;"experimental
+"
+pre;shraddhabarke_probe;60965abe3a57b5ca097d4a842805e4e2ae6c7112;Shraddha Barke <shraddha.6596@gmail.com>;1602379823;"benchmark fix
+"
+pre;shraddhabarke_probe;4c40d1396069edbd42416c90487c3b52b3b2e953;Shraddha Barke <shraddha.6596@gmail.com>;1602732948;"sygusTask
+"
+pre;shraddhabarke_probe;f43ed831e0c8ac59ab68863cf6e5aaaa70ebfc3c;Shraddha Barke <31306549+shraddhabarke@users.noreply.github.com>;1616338729;added probe paper
+post;shraddhabarke_probe;a4d69057d1970f9f50ba1cf239ba4166076e3cc1;Shraddha Barke <sbarke@eng.ucsd.edu>;1677917593;"migrate Probe to Scala v3
+"
+post;shraddhabarke_probe;b38f425e62e3ceb131250bc8e71229271ac7172a;Shraddha Barke <sbarke@eng.ucsd.edu>;1677993066;"migrating to current versions
+"
+post;shraddhabarke_probe;f510dbe2ec653b0f782ea802826c70a288cc4c2c;Shraddha Barke <sbarke@eng.ucsd.edu>;1677996452;"run eval from ProbeMain
+"
+post;shraddhabarke_probe;ef7950083e07b7bfe1f74aaa929d79b80b116a7e;Shraddha Barke <sbarke@eng.ucsd.edu>;1709335166;"modify
+"
+post;shraddhabarke_probe;6ef1168c69e3ea5752a0a4cf14420f0fe93e12c8;Shraddha Barke <sbarke@eng.ucsd.edu>;1709603497;"changes for the paper
+"
+post;shraddhabarke_probe;ac7fe9152c1c5ce87dc8ea8d4b90e9102e856bb5;Shraddha Barke <sbarke@eng.ucsd.edu>;1709604206;"evaluating inputs
+"
+post;shraddhabarke_probe;5b625f02b8fe1191e305390f87d4d5870d80131c;Shraddha Barke <sbarke@eng.ucsd.edu>;1709609967;"compute PCFG
+"
+post;shraddhabarke_probe;5835bb9f919ae309f5d72b79da79987d206e3804;Shraddha Barke <sbarke@eng.ucsd.edu>;1716156269;"updating PCFG code
+"
+post;shraddhabarke_probe;4d1d43d2c78046272bced6e3a254abae1c3b342f;Shraddha Barke <sbarke@eng.ucsd.edu>;1726063136;"minor
+"
+pre;openuc2_uc2-git;779a0d2a6cd20f6832881025a7ec88c4c796bb84;Benedict Diederich <bene.d@gmx.de>;1650567689;"Adding Arducam Module
+"
+pre;openuc2_uc2-git;0eb1a586728e509e5a369c45c732cc584533b102;Benedict Diederich <bene.d@gmx.de>;1650567765;"Merge branch 'master' of https://github.com/openUC2/UC2-GIT
+"
+pre;openuc2_uc2-git;3a1f9026339f685fc6c8aa99401d5269260b3e45;beniroquai <bene.d@gmx.de>;1654206353;"Updating starting page
+"
+pre;openuc2_uc2-git;672ece8594170f79df1d9e0640d5948ecec906bc;beniroquai <bene.d@gmx.de>;1654206357;"Merge branch 'master' of https://github.com/openUC2/UC2-GIT
+"
+pre;openuc2_uc2-git;54a523e7ad668827c3fffeea6c4e4904a69dd4df;Benedict Diederich <bene.d@gmx.de>;1666613084;Create check_broken_links.yml
+pre;openuc2_uc2-git;49c9ae0611d2a8407669871d4468a6c3d9b7fbf2;Eda Bingöl <edabingol94@gmail.com>;1668720761;"Corrections on PolarBOX and BOXes
+"
+pre;openuc2_uc2-git;bb25e9aacb982e0d029a7c7a94b51f4060260372;Eda Bingöl <edabingol94@gmail.com>;1668721831;"Fixed broken links in Simple Smartphone Application
+"
+pre;openuc2_uc2-git;fb626129dc3dca572644c162280aead932ee4ce0;Eda Bingöl <edabingol94@gmail.com>;1668724656;"Fixing broken links - part1
+"
+pre;openuc2_uc2-git;1feac0fa6b0aca7ce55dc0360d0b4fe56d0c1994;Eda Bingöl <edabingol94@gmail.com>;1670251960;"Update CONTRIBUTING.md broken link
+"
+pre;openuc2_uc2-git;d70163c15e8cf2309aaf85ed877cb1670cb34298;Benedict Diederich <bene.d@gmx.de>;1677094955;Update Readme.md
+post;openuc2_uc2-git;809479981a4b635cdaeb2578eac215fc06949717;Robert Haase <haesleinhuepf@users.noreply.github.com>;1711736099;fix broken link
+post;openuc2_uc2-git;dea2aca9f7fb344b781abce6a466f22229fd3c4d;Benedict Diederich <bene.d@gmx.de>;1712437478;"Merge pull request #109 from haesleinhuepf/patch-1
+
+fix broken link"
+post;openuc2_uc2-git;9743c456115ca6c2fa3dc3ade405ebde01d22827;Benedict Diederich <bene.d@gmx.de>;1731241027;Add files via upload
+post;openuc2_uc2-git;6241fb5944ea26cd102cdf98d5604dc87e38af41;Benedict Diederich <bene.d@gmx.de>;1731241141;Update Readme.md
+post;openuc2_uc2-git;fe830e2803286d8d9bdb32d94c1043b0c3d4ea59;Benedict Diederich <bene.d@gmx.de>;1733601242;Add files via upload
+post;openuc2_uc2-git;83ead9a9896ecf25259e244746d91adad2498a49;Benedict Diederich <bene.d@gmx.de>;1747939282;Update Readme.md
+pre;fangq_mcx;0cc66c2b4410d5206315aabfac421b399281e67d;Qianqian Fang <fangqq@gmail.com>;1405112592;"a patch submitted by David Gasperino for rigirously modeling a collimated Gaussian beam
+
+git-svn-id: https://svn.code.sf.net/p/mcx/svn/mcextreme_cuda/trunk@324 373d029a-b463-0410-adc7-be649bff2a08
+"
+pre;fangq_mcx;48ed2444ed49286adb2dea481b76de4eb6302856;fangq <fangq@373d029a-b463-0410-adc7-be649bff2a08>;1405112592;a patch submitted by David Gasperino for rigirously modeling a collimated Gaussian beam
+pre;fangq_mcx;32999841980baf0e9ca3389c9343dae220d37b3e;fangq <fangq@373d029a-b463-0410-adc7-be649bff2a08>;1411493697;fix submillimeter voxel scaling bug in the binary mode
+pre;fangq_mcx;e00375d0877993cea1477e3789e3c110ff322297;Qianqian Fang <fangqq@gmail.com>;1411493697;"fix submillimeter voxel scaling bug in the binary mode
+
+git-svn-id: https://svn.code.sf.net/p/mcx/svn/mcextreme_cuda/trunk@325 373d029a-b463-0410-adc7-be649bff2a08
+"
+pre;fangq_mcx;1f9cb9a8873479a6fc6a4d4f2afd8500d1012351;fangq <fangq@373d029a-b463-0410-adc7-be649bff2a08>;1411494326;update docs for 0.9.7-2
+pre;fangq_mcx;db251da8d865100b85762f51673e984f910ae603;Qianqian Fang <fangqq@gmail.com>;1411494326;"update docs for 0.9.7-2
+
+git-svn-id: https://svn.code.sf.net/p/mcx/svn/mcextreme_cuda/trunk@326 373d029a-b463-0410-adc7-be649bff2a08
+"
+pre;fangq_mcx;39e5d67428bc131a9040440491d51a4f87c77d65;fangq <fangq@373d029a-b463-0410-adc7-be649bff2a08>;1411534255;minor post-release updates, updating version number and copyright
+pre;fangq_mcx;f9db936c29784d330e1eba4d280c3e5af5437f53;Qianqian Fang <fangqq@gmail.com>;1411534255;"minor post-release updates, updating version number and copyright
+
+git-svn-id: https://svn.code.sf.net/p/mcx/svn/mcextreme_cuda/trunk@327 373d029a-b463-0410-adc7-be649bff2a08
+"
+pre;fangq_mcx;718a21af522365bd1f7227bbe4a30d01b9647a65;fangq <fangq@373d029a-b463-0410-adc7-be649bff2a08>;1412259822;update MT RNG interface
+pre;fangq_mcx;7ca63f706d35bb89e15ccfa222c449bce4237a9e;Qianqian Fang <fangqq@gmail.com>;1412259822;"update MT RNG interface
+
+git-svn-id: https://svn.code.sf.net/p/mcx/svn/mcextreme_cuda/trunk@328 373d029a-b463-0410-adc7-be649bff2a08
+"
+post;fangq_mcx;3c8a1165bf33031dd248b83956cbfc2ce6a1ea7c;Qianqian Fang <fangqq@gmail.com>;1433963527;"accept endianness input
+
+git-svn-id: https://svn.code.sf.net/p/mcx/svn/mcextreme_cuda/trunk@329 373d029a-b463-0410-adc7-be649bff2a08
+"
+post;fangq_mcx;7487e4d849e51efaab5db301a7006e23f27ee8e4;Qianqian Fang <fangqq@gmail.com>;1433963582;"support saving photon seeds and replay
+
+git-svn-id: https://svn.code.sf.net/p/mcx/svn/mcextreme_cuda/trunk@330 373d029a-b463-0410-adc7-be649bff2a08
+"
+post;fangq_mcx;ebb9dec6b3e7b59a68ed5ac78a11060c5149481b;Qianqian Fang <fangqq@gmail.com>;1433965383;"makefile updated for cuda 6.5
+
+git-svn-id: https://svn.code.sf.net/p/mcx/svn/mcextreme_cuda/trunk@331 373d029a-b463-0410-adc7-be649bff2a08
+"
+post;fangq_mcx;39666b153a82597ea29ee8ea2e0321f17a3df40e;Qianqian Fang <fangqq@gmail.com>;1433967130;"set default target to fermi
+
+git-svn-id: https://svn.code.sf.net/p/mcx/svn/mcextreme_cuda/trunk@332 373d029a-b463-0410-adc7-be649bff2a08
+"
+post;fangq_mcx;7b1628d2c2246d838dabf4f831ba4d5ea67cc9d7;Qianqian Fang <fangqq@gmail.com>;1433974644;"make maxgate by default the total needed gates
+
+git-svn-id: https://svn.code.sf.net/p/mcx/svn/mcextreme_cuda/trunk@333 373d029a-b463-0410-adc7-be649bff2a08
+"
+post;fangq_mcx;7475d5eebfaa84dde16af7434b9faae264d482f7;Qianqian Fang <fangqq@gmail.com>;1433976310;"update core per SM count table
+
+git-svn-id: https://svn.code.sf.net/p/mcx/svn/mcextreme_cuda/trunk@334 373d029a-b463-0410-adc7-be649bff2a08
+"
+post;fangq_mcx;97cd3e993f225a7bd49e07ede3b7b79af261759e;Qianqian Fang <fangqq@gmail.com>;1434396455;"return gpu info for better interfacing with matlab
+
+git-svn-id: https://svn.code.sf.net/p/mcx/svn/mcextreme_cuda/trunk@335 373d029a-b463-0410-adc7-be649bff2a08
+"
+post;fangq_mcx;e5dfe480e345df004d3f2146da8bcb35398a3077;Qianqian Fang <fangqq@gmail.com>;1434405099;"mcxlab can query gpu info by mcxlab('gpuinfo')
+
+git-svn-id: https://svn.code.sf.net/p/mcx/svn/mcextreme_cuda/trunk@336 373d029a-b463-0410-adc7-be649bff2a08
+"
+post;fangq_mcx;68155775d28190b81d59ed27cbf66c81a6c04d53;Qianqian Fang <fangqq@gmail.com>;1435206904;"fix address alignment error for CUDA 6 or higher
+
+git-svn-id: https://svn.code.sf.net/p/mcx/svn/mcextreme_cuda/trunk@337 373d029a-b463-0410-adc7-be649bff2a08
+"
+post;fangq_mcx;60238c4deef154c3869ac04cec17010516d9192c;Qianqian Fang <fangqq@gmail.com>;1435207102;"multiple GPU support! set fermi as default, set atomic as default, better mex compilation
+
+git-svn-id: https://svn.code.sf.net/p/mcx/svn/mcextreme_cuda/trunk@338 373d029a-b463-0410-adc7-be649bff2a08
+"
